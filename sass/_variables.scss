@@ -1,0 +1,35 @@
+// COLORS
+$color-primary-light-1: #fff4cd;
+$color-primary-light-2: #ffefb9;
+$color-primary: #ffd646;
+$color-secondary: #0e0228;
+$color-secondary-2: #070015b3;
+
+$transition-def: all 0.3s ease-out;
+
+// FONTS
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'City';
+  src: url('../fonts/Citynova-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'ComforterBrush';
+  src: url('../fonts/ComforterBrush-Regular.ttf');
+  font-weight: 400;
+}

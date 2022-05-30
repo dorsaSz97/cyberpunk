@@ -1,0 +1,53 @@
+@mixin frame-border() {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    transition: $transition-def;
+
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        0deg,
+        $color-primary-light-1,
+        $color-primary-light-1 25%,
+        transparent 25%,
+        transparent 75%,
+        $color-primary-light-1 75%
+      ),
+      // left
+      linear-gradient(
+          90deg,
+          $color-primary-light-1,
+          $color-primary-light-1 25%,
+          transparent 25%,
+          transparent 75%,
+          $color-primary-light-1 75%
+        ),
+      // top
+      linear-gradient(
+          180deg,
+          $color-primary-light-1,
+          $color-primary-light-1 25%,
+          transparent 25%,
+          transparent 75%,
+          $color-primary-light-1 75%
+        ),
+      // right
+      linear-gradient(
+          270deg,
+          $color-primary-light-1,
+          $color-primary-light-1 25%,
+          transparent 25%,
+          transparent 75%,
+          $color-primary-light-1 75%
+        )
+        // bottom
+;
+  }
+}

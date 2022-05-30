@@ -1,0 +1,62 @@
+@keyframes shake {
+  25% {
+    transform: scale(1.25) rotate(3deg);
+  }
+  50% {
+    transform: scale(1.25) rotate(-3deg);
+  }
+  75% {
+    transform: scale(1.25) rotate(3deg);
+  }
+  100% {
+    transform: scale(1.25) rotate(0deg);
+  }
+}
+@keyframes stack {
+  0% {
+    opacity: 0;
+    transform: translateX(-5px);
+    text-shadow: -2px 3px 0 black, 2px -3px 0 $color-primary;
+  }
+  60% {
+    opacity: 0.5;
+    transform: translateX(5px);
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 black, -2px 3px 0 $color-primary;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes glitch-1 {
+  0% {
+    text-shadow: -2px 3px 0 black, 2px -3px 0 $color-primary;
+    transform: translate(8px);
+  }
+  2% {
+    text-shadow: 2px -3px 0 black, -2px 3px 0 $color-primary;
+  }
+  4%,
+  100% {
+    text-shadow: none;
+    transform: none;
+  }
+}
+@keyframes glitch-2 {
+  0% {
+    text-shadow: -2px 3px 0 black, 2px -3px 0 $color-primary;
+    transform: translate(-8px);
+  }
+  2% {
+    text-shadow: 2px -3px 0 black, -2px 3px 0 $color-primary;
+  }
+  4%,
+  100% {
+    text-shadow: none;
+    transform: none;
+  }
+}
