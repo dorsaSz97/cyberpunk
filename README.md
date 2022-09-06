@@ -1,4 +1,4 @@
-# Cyberpunk
+# Cyberpunk (not responsive)
 
 This is a website for the 'Cyberpunk. Dark Matter' themed party.
 
