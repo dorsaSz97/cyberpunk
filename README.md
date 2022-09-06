@@ -1,6 +1,6 @@
-# Cyberpunk Website
+# Cyberpunk
 
-This is my 13th project which is a website for the 'Cyberpunk. Dark Matter' themed party.
+This is a website for the 'Cyberpunk. Dark Matter' themed party.
 
 (The design is by Maria Belaya)
 
